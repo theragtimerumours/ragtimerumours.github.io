@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ page.landing-title }}</h1>
+            </header>
+            
+            <!-- One -->
+            <section id="one">
+                <div class="inner">
+                
+                    {{ content }}
+                    
+                </div>
+            </section>
+            <div class="test">
+            <div class="content">
+            
+                <!--<p style="text-transform: uppercase;">{{ site.description }}</p>-->
+                <a href="#two" class="button scrolly">Band</a>
+                <a href="#three" class="button scrolly">Events</a>
+                <a href="#contact" class="button scrolly">Contact</a>
+            </div> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+        
+        <!-- Two -->
+        {% include tiles.html %}
+        
+        <!-- Three -->
+        <section id="three">
+            <div class="inner">
+                <header class="major">
+                    <h2>Upcoming Events</h2>
+                </header>
+            
+                {% include events.md %}
+            
+            </div>
+        </section>
+
+
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>

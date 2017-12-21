@@ -1,0 +1,35 @@
+# site settings
+title: The Ragtime Rumours
+subtitle: Band
+email: ragtimerumours@gmail.com
+description: Rag 'n Roll
+baseurl: ""
+url: ""
+author:
+street_address: 1234 Somewhere Road
+city: Reuver
+state: Limburg
+zip_code: 55555
+country: The Netherlands
+phone: 06 12907925
+
+# homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings
+500px_url:
+facebook_url: https://www.facebook.com/theragtimerumours/
+github_url:
+googleplus_url: https://plus.google.com/
+instagram_url:
+linkedin_url:
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed

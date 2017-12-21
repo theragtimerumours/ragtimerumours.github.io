@@ -1,0 +1,33 @@
+<head>
+	<title>{{ site.title }}</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<!--[if lte IE 8]><script src="{{ "assets/js/ie/html5shiv.js" | relative_url }}"></script><![endif]-->
+	<link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}" />
+	<script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/mediaelement-and-player.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "assets/css/ie9.css" | relative_url }}" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "assets/css/ie8.css" | relative_url }}" /><![endif]-->
+	
+	<!-- Crunchify's Scroll to Top Script -->
+	<script>            
+	  jQuery(document).ready(function() {
+		  var offset = 220;
+		  var duration = 500;
+		  jQuery(window).scroll(function() {
+		  	  if (jQuery(this).scrollTop() > offset) {
+				  jQuery('.crunchify-top').fadeIn(duration);
+			  } else {
+				  jQuery('.crunchify-top').fadeOut(duration);
+			  }
+		  });
+ 
+		  jQuery('.crunchify-top').click(function(event) {
+			  event.preventDefault();
+			  jQuery('html, body').animate({scrollTop: 0}, duration);
+			  return false;
+		  })
+	  });
+    </script>
+</head>
