@@ -9,11 +9,11 @@ author: null
 <div class="row uniform">
     <div class="3u 12u$(xsmall)">
         <div class="audioplay-object">
-            Ain't Nobody
+            Ragtime Rumours
             <div class="audioplay-button"></div>
                 <audio class="audioplay-player" data-apmode="playpause" data-apskin="classic" data-apstarttime="0" data-apfadeintime="3000" data-apwidth="30px" data-apheight="30px" data-aploop="yes">
-                    <source src="assets/media/aintnobody.wav" />
-                    <source src="https://strangecube.com/audioplay2/player/music/music.mp3" />
+                    <source src="assets/media/ragtime_rumours.mp3" />
+                    <source src="assets/media/ragtime_rumours.ogg" />
                     Your browser doesn't support &lt;audio&gt; element.
                 </audio>
         </div>
@@ -21,11 +21,11 @@ author: null
 
     <div class="3u 12u$(xsmall)">
         <div class="audioplay-object">
-            16 Tons
+            Ain't Nobody
             <div class="audioplay-button"></div>
                 <audio class="audioplay-player" data-apmode="playpause" data-apskin="classic" data-apstarttime="0" data-apfadeintime="3000" data-apwidth="30px" data-apheight="30px" data-aploop="yes">
-                    <source src="assets/media/16tons.wav" />
-                    <source src="https://strangecube.com/audioplay2/player/music/music.mp3" />
+                    <source src="assets/media/aintnobody.mp3" />
+                    <source src="assets/media/aintnobody.ogg" />
                     Your browser doesn't support &lt;audio&gt; element.
                 </audio>
             </div>
@@ -33,32 +33,27 @@ author: null
     
     <div class="3u 12u$(xsmall)">
         <div class="audioplay-object">
-            Ragtime Rumours
+            Love And Lust
             <div class="audioplay-button"></div>
                 <audio class="audioplay-player" data-apmode="playpause" data-apskin="classic" data-apstarttime="0" data-apfadeintime="3000" data-apwidth="30px" data-apheight="30px" data-aploop="yes">
-                    <source src="assets/media/rumours.wav" />
-                    <source src="https://strangecube.com/audioplay2/player/music/music.mp3" />
+                    <source src="assets/media/love_and_lust.mp3" />
+                    <source src="assets/media/love_and_lust.ogg" />
                     Your browser doesn't support &lt;audio&gt; element.
                 </audio>
-            </div>
+        </div>
     </div>
     
     <div class="3u$ 12u$(xsmall)">
         <div class="audioplay-object">
-            Another Song
+            Get Up On My Feet
             <div class="audioplay-button"></div>
                 <audio class="audioplay-player" data-apmode="playpause" data-apskin="classic" data-apstarttime="0" data-apfadeintime="3000" data-apwidth="30px" data-apheight="30px" data-aploop="yes">
-                    <source src="https://strangecube.com/audioplay2/player/music/music.ogg" />
-                    <source src="https://strangecube.com/audioplay2/player/music/music.mp3" />
+                    <source src="assets/media/get_up_on_my_feet.mp3" />
+                    <source src="assets/media/get_up_on_my_feet.ogg" />
                     Your browser doesn't support &lt;audio&gt; element.
                 </audio>
             </div>
     </div>
 </div>
 
-<!--
-<iframe width="45%" height="50" scrolling="no" frameborder="no" allowtransparency="true" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/262598797&amp;color=%233a181a&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
-<iframe width="45%" height="50" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/251488320&amp;color=%233a181a&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
-<iframe width="45%" height="50" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/262598794&amp;color=%233a181a&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
-<iframe width="45%" height="50" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/262598794&amp;color=%233a181a&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe> -->
             

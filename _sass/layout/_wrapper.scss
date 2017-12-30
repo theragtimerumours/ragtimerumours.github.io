@@ -21,3 +21,20 @@
 			padding-top: 2.75em;
 		}
 	}
+
+/* video & audio link button/external players */
+ 
+.media-link {
+	position: relative;
+    z-index: 10;
+}
+
+.media-audio {
+	position: relative;
+    z-index: 10;
+    width: 50%;
+    margin: 25%;
+    float:right;
+	cursor: pointer;
+    text-decoration: none !important;
+}

@@ -7,8 +7,8 @@
 	
 			<ul class="icons">
                 <li><a href="{{ site.baseurl }}/" class="icon alt fa-home" title="Home"><span class="label">Home</span></a></li>
-				<li><a href="{{ site.baseurl }}/landing" class="icon alt fa-video-camera" title="Videos"><span class="label">About</span></a></li>
-				<li><a href="{{ site.baseurl }}/generic" class="icon alt fa-music" title="More Music"><span class="label">Music</span></a></li>
+				<li><a href="{{ site.baseurl }}/video" class="icon alt fa-video-camera" title="Videos"><span class="label">About</span></a></li>
+				<li><a href="{{ site.baseurl }}/audio" class="icon alt fa-music" title="More Music"><span class="label">Music</span></a></li>
 				<!--<li><a href="{{ site.baseurl }}#three" class="icon alt fa-calendar" title="Tour Dates"><span class="label">Music</span></a></li>
 				<li><a href="{{ site.baseurl }}#contact" class="icon alt fa-envelope" title="Contact"><span class="label">Music</span></a></li>-->
                 {% if site.facebook_url %}
@@ -26,8 +26,8 @@
 				{% if site.pinterest_url %}
 				<li><a href="{{ site.pinterest_url }}" class="icon alt fa-pinterest" target="_blank" title="Pinterest"><span class="label">Pinterest</span></a></li>
 				{% endif %}
-				{% if site.500px_url %}
-				<li><a href="{{ site.500px_url }}" class="icon alt fa-500px" target="_blank"><span class="label">500px</span></a></li>
+				{% if site.youtube_url %}
+				<li><a href="{{ site.youtube_url }}" class="icon alt fa-youtube" target="_blank"><span class="label">YouTube</span></a></li>
 				{% endif %}
 				{% if site.gitlab_url %}
 				<li><a href="{{ site.gitlab_url }}" class="icon alt fa-gitlab" target="_blank"><span class="label">GitLab</span></a></li>
@@ -43,15 +43,15 @@
 				{% endif %}
 			</ul>
 
-	<nav>
+<!--<nav>
 		<a href="#menu">Menu</a>
-	</nav>
+	</nav>-->
 </header>
 
 <!-- Menu -->
-<nav id="menu">
+<!--<nav id="menu">
 	<ul class="links">
-        <!--{% for page in site.pages %}
+        {% for page in site.pages %}
 		    {% if page.layout == "home" %}
 		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
 	    	{% endif %}
@@ -60,16 +60,16 @@
 		    {% if page.layout != "home" and page.nav-menu == true %}
 		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
 		    {% endif %}
-		{% endfor %}-->
+		{% endfor %}
 		<li><a href="{{ site.baseurl }}/">Home</a></li>
         <li><a href="{{ site.baseurl }}/about" {% if current[1] == 'about' %}class="active"{% endif %}>About</a></li>
         <li><a href="{{ site.baseurl }}/news" {% if current[1] == 'news' %}class="active"{% endif %}>News</a></li>
         <li><a href="{{ site.baseurl }}/music" {% if current[1] == 'music' %}class="active"{% endif %}>Music</a></li>
 	</ul>
-	<!--<ul class="actions vertical">
+	<ul class="actions vertical">
 		<li><a href="#" class="button special fit">Get Started</a></li>
 		<li><a href="#" class="button fit">Log In</a></li>
-	</ul> -->
+	</ul>
 	<div class="inner">
 			<ul class="icons">
                 {% if site.facebook_url %}
@@ -104,4 +104,4 @@
 				{% endif %}
 			</ul>
     </div>
-</nav>
+</nav> -->

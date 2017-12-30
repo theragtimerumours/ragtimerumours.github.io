@@ -11,7 +11,7 @@ city: Reuver
 state: Limburg
 zip_code: 55555
 country: The Netherlands
-phone: 06 12907925
+phone: 0031(0)612907925
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
@@ -21,12 +21,13 @@ tiles-count: 6
 500px_url:
 facebook_url: https://www.facebook.com/theragtimerumours/
 github_url:
-googleplus_url: https://plus.google.com/
-instagram_url:
+googleplus_url:
+instagram_url: https://www.instagram.com/theragtimerumours/?hl=nl
 linkedin_url:
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/
+twitter_url:
+youtube_url: https://www.youtube.com/channel/UCfR8kd-uStZtnWbsWVIPfsQ
 
 # build settings
 markdown: kramdown

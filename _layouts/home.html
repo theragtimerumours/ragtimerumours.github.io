@@ -27,7 +27,7 @@
             <div class="content">
             
                 <!--<p style="text-transform: uppercase;">{{ site.description }}</p>-->
-                <a href="#two" class="button scrolly">Band</a>
+                <a href="#two" class="button scrolly">About</a>
                 <a href="#three" class="button scrolly">Events</a>
                 <a href="#contact" class="button scrolly">Contact</a>
             </div> 
@@ -44,11 +44,13 @@
         <!-- Three -->
         <section id="three">
             <div class="inner">
-                <header class="major">
-                    <h2>Upcoming Events</h2>
-                </header>
-            
-                {% include events.md %}
+                <div class="media-link"> <!-- use wrapper.scss, media section -->
+                    <header class="major">
+                        <h2>Upcoming Events</h2>
+                    </header>
+                
+                    {% include events.md %}
+                </div>
             
             </div>
         </section>
