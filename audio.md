@@ -20,10 +20,10 @@ nav-menu: true
 					<h3>The Ragtime Rumours - EP 1</h3>
 				</header>
 				<p>Written by Tom Jansen. Produced and engineered by The Ragtime Rumours at Some Sound Studio. </p>
-                <audio id="audio-player" src="assets/media/love_and_lust.mp3" type="audio/mp3" controls="controls"></audio>
+                Love And Lust &nbsp;<audio id="audio-player" src="assets/media/love_and_lust.mp3" type="audio/mp3" controls="controls"></audio>
 			</div>
 			<div class="inner">
-                <audio id="audio-player" src="assets/media/aintnobody.mp3" type="audio/mp3" controls="controls"></audio>
+                Ain't Nobody &nbsp;&nbsp;&nbsp;<audio id="audio-player" src="assets/media/aintnobody.mp3" type="audio/mp3" controls="controls"></audio>
 			</div>
 		</div>
 	</section>
