@@ -1,6 +1,6 @@
 ---
-title: Albums & Images
-layout: landing
+title: Images & Album
+layout: audio
 image: assets/images/pic13a.jpg
 nav-menu: true
 ---
@@ -10,7 +10,7 @@ nav-menu: true
 
 <!-- Two -->
 <section id="two" class="spotlights">
-	<section>
+	<!--<section>
 		<a href="generic.html" class="image">
 			<img src="assets/images/pic17.jpg" alt="" data-position="center center" />
 		</a>
@@ -19,14 +19,14 @@ nav-menu: true
 				<header class="major">
 					<h3>The Ragtime Rumours - EP 1</h3>
 				</header>
-				<p>Written by Tom Jansen. Produced and engineered by The Ragtime Rumours at Some Sound Studio. </p>
+				<p>Written, produced and engineered by The Ragtime Rumours at Kink Studio. </p>
                 Love And Lust &nbsp;<audio id="audio-player" src="assets/media/love_and_lust.mp3" type="audio/mp3" controls="controls"></audio>
 			</div>
 			<div class="inner">
                 Ain't Nobody &nbsp;&nbsp;&nbsp;<audio id="audio-player" src="assets/media/aintnobody.mp3" type="audio/mp3" controls="controls"></audio>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	
 	<!--image section -->
 
@@ -55,6 +55,8 @@ nav-menu: true
 		</header> 
 		<p>See </p> -->
 			<iframe class="media-audio" height="350" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/222275049&amp;color=%233a181a&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+			
+			<!--<iframe class="media-audio" style="border: 0; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=2980624483/size=large/bgcol=ffffff/linkcol=333333/artwork=none/transparent=true/" seamless><a href="http://thimogijezen.bandcamp.com/album/the-ragtime-rumours-aint-nobody">The Ragtime Rumours - Ain&#39;t Nobody by Thimo Gijezen</a></iframe> -->
 	</div>
 </section>
 
