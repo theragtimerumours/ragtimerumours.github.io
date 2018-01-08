@@ -15,6 +15,11 @@
 				<td>Wijk bij Duurstede</td>
 			</tr>
 			<tr>
+				<td>Jan 7</td>
+				<td>Den Heilige Cornelius</td>
+				<td>Roermond</td>
+			</tr>
+			<tr>
 				<td>Jan 14</td>
 				<td>Blues at the Beach.</td>
 				<td>Amsterdam</td>
