@@ -23,7 +23,7 @@ author: null
         <div class="audioplay-object">
             Ain't Nobody
             <div class="audioplay-button"></div>
-                <audio class="audioplay-player" data-apmode="playpause" data-apskin="classic" data-apstarttime="0" data-apfadeintime="3000" data-apwidth="30px" data-apheight="30px" data-aploop="no">
+                <audio class="audioplay-player" data-apmode="playpause" data-apskin="classic" data-apstarttime="0" data-apfadeintime="3000" data-apwidth="30px" data-apheight="30px" data-aploop="no" preload="none">
                     <source src="assets/media/aintnobody.mp3" />
                     <source src="assets/media/aintnobody.ogg" />
                     Your browser doesn't support &lt;audio&gt; element.
@@ -35,7 +35,7 @@ author: null
         <div class="audioplay-object">
             Love And Lust
             <div class="audioplay-button"></div>
-                <audio class="audioplay-player" data-apmode="playpause" data-apskin="classic" data-apstarttime="0" data-apfadeintime="3000" data-apwidth="30px" data-apheight="30px" data-aploop="no">
+                <audio class="audioplay-player" data-apmode="playpause" data-apskin="classic" data-apstarttime="0" data-apfadeintime="3000" data-apwidth="30px" data-apheight="30px" data-aploop="no" preload="none">
                     <source src="assets/media/love_and_lust.mp3" />
                     <source src="assets/media/love_and_lust.ogg" />
                     Your browser doesn't support &lt;audio&gt; element.
@@ -47,7 +47,7 @@ author: null
         <div class="audioplay-object">
             Get Up On My Feet
             <div class="audioplay-button"></div>
-                <audio class="audioplay-player" data-apmode="playpause" data-apskin="classic" data-apstarttime="0" data-apfadeintime="3000" data-apwidth="30px" data-apheight="30px" data-aploop="no">
+                <audio class="audioplay-player" data-apmode="playpause" data-apskin="classic" data-apstarttime="0" data-apfadeintime="3000" data-apwidth="30px" data-apheight="30px" data-aploop="no" preload="none">
                     <source src="assets/media/get_up_on_my_feet.mp3" />
                     <source src="assets/media/get_up_on_my_feet.ogg" />
                     Your browser doesn't support &lt;audio&gt; element.
