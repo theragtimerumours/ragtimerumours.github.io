@@ -10,9 +10,9 @@
 		</thead>
 		<tbody>
 			<tr>
-				<td>Jan 5</td>
-				<td>Going to Memphis</td>
-				<td>Wijk bij Duurstede</td>
+				<td>Jan 7</td>
+				<td>Voor De Kunst</td>
+				<td>Roermond</td>
 			</tr>
 			<tr>
 				<td>Jan 14</td>
@@ -30,9 +30,14 @@
 				<td>Panningen</td>
 			</tr>
 			<tr>
-				<td>Apr 13</td>
+				<td>Apr 27</td>
 				<td>TTR in Bergen</td>
 				<td>Bergen, Norway</td>
+			</tr>
+			<tr>
+				<td>May 19</td>
+				<td>TTR in RibsenBlues</td>
+				<td>Raalte</td>
 			</tr>
 		</tbody>
 	</table>
