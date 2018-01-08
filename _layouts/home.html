@@ -27,7 +27,9 @@
                 <div class="content">
                 
                     <!--<p style="text-transform: uppercase;">{{ site.description }}</p>-->
+                    <a href="#video" class="button scrolly">Videos</a>
                     <a href="#two" class="button scrolly">About</a>
+                    <a href="#audio" class="button scrolly">Album & Images</a>
                     <a href="#three" class="button scrolly">Events</a>
                     <a href="#contact" class="button scrolly">Contact</a>
                 </div> 
@@ -38,8 +40,14 @@
     <!-- Main -->
     <div id="main">
         
+        <!-- One -->
+        {% include video2.html %}
+        
         <!-- Two -->
         {% include tiles.html %}
+        
+         <!-- Audio -->
+        {% include audio3.html %}
         
         <!-- Three -->
         <section id="three">
@@ -54,7 +62,6 @@
             
             </div>
         </section>
-
 
     </div>
 
