@@ -11,7 +11,7 @@ author: null
         <div class="audioplay-object">
             Ragtime Rumours
             <div class="audioplay-button"></div>
-                <audio class="audioplay-player" data-apmode="playpause" data-apskin="classic" data-apstarttime="0" data-apfadeintime="3000" data-apwidth="30px" data-apheight="30px" data-aploop="yes">
+                <audio class="audioplay-player" data-apmode="playpause" data-apskin="classic" data-apstarttime="0" data-apfadeintime="3000" data-apwidth="30px" data-apheight="30px" data-aploop="yes" preload="none">
                     <source src="assets/media/ragtime_rumours.mp3" />
                     <source src="assets/media/ragtime_rumours.ogg" />
                     Your browser doesn't support &lt;audio&gt; element.
