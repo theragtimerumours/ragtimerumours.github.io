@@ -151,6 +151,8 @@
 		@include breakpoint(medium) {
 			article {
 				width: 50% !important;
+                font-size: 9pt;
+                letter-spacing-alt:	0.001em !important;
 			}
 		}
 

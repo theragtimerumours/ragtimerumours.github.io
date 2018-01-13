@@ -1,7 +1,7 @@
 ---
-title: Video Selection
-layout: landing
-image: assets/images/band_cl1.png
+title: Media Selection
+layout: video
+image: assets/images/pic13a.jpg
 nav-menu: true
 ---
 
@@ -10,41 +10,63 @@ nav-menu: true
 
 <!-- One -->
 <section id="one">
-	<div class="inner">
-		<header class="major">
-			<h2>The Ragtime Rumours - Love  Lust (official videoclip)</h2>
-		</header>
-		
-        <video width="90%" controls>
-            <source src="assets/media/the_ragtime_rumours_love_lust.mp4#t=1,100" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-	</div>
-	
-	<div class="inner">
-		<header class="major">
-			<h2>The Ragtime Rumours - Compilation</h2>
-		</header>
-		
-        <video width="90%" controls>
-            <source src="assets/media/clip1.mp4#t=1,100" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-	</div>
+    <div class="inner">
+        <div class="row">
+            <div class="6u 12u$(small)">
+                <header class="major">
+                    <h4>The Ragtime Rumours - Love & Lust</h4>
+                </header>
+                
+                <video width="90%" controls>
+                    <source src="assets/media/the_ragtime_rumours_love_lust.mp4#t=1,100" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
+            <div class="6u 12u$(small)">
+                <header class="major">
+                    <h4>The Ragtime Rumours - Ain't Nobody</h4>
+                </header>
+                
+                <video width="90%" controls preload="metadata">
+                    <source src="assets/media/the_ragtime_rumours-ain't_nobody.webm#t=3,100" type="video/webm">
+                    <source src="https://kaosx.us/media/the_ragtime_rumours-ain't_nobody.mp4#t=3,100" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
 </section>
 
-<!-- Three -->
+<!--image section -->
+<section id="two">
+    <div class="box alt" id="images">
+        <div class="row 50% uniform">
+            <div class="4u"><span class="image fit"><img src="assets/images/timo_tom.jpg" alt="" /></span></div>
+            <div class="4u"><span class="image fit"><img src="assets/images/tom_niki.jpg" alt="" /></span></div>
+            <div class="4u$"><span class="image fit"><img src="assets/images/sjaak.jpg" alt="" /></span></div>
+            <!-- Break -->
+            <div class="4u"><span class="image fit"><img src="assets/images/street.jpg" alt="" /></span></div>
+            <div class="4u"><span class="image fit"><img src="assets/images/band_cl1.png" alt="" /></span></div>
+            <div class="4u$"><span class="image fit"><img src="assets/images/blues_challenge.jpg" alt="" /></span></div>
+            <!-- Break -->
+            <div class="4u"><span class="image fit"><img src="assets/images/street2.jpg" alt="" /></span></div>
+            <div class="4u"><span class="image fit"><img src="assets/images/bar_bw.jpg" alt="" /></span></div>
+            <div class="4u$"><span class="image fit"><img src="assets/images/timo_c.jpg" alt="" /></span></div>
+            <!-- Break -->
+            <div class="4u"><span class="image fit"><img src="assets/images/trr.jpg" alt="" /></span></div>
+            <div class="4u"><span class="image fit"><img src="assets/images/zomerparkfeest.jpg" alt="" /></span></div>
+            <div class="4u$"><span class="image fit"><img src="assets/images/band_cl2.png" alt="" /></span></div>
+        </div>
+    </div>
+</section>
+
+<!-- Spotify player -->
 <section id="three">
 	<div class="inner">
-        <div class="media-link"> <!-- use wrapper.scss, media section -->
-            <header class="major">
-                <h2>YouTube</h2>
-            </header>
-            <p>See our YouTube Channel for more Videos</p>
-            <ul class="actions">
-                    <li><a href="https://www.youtube.com/channel/UCfR8kd-uStZtnWbsWVIPfsQ" class="button next" target="_blank">Go to YouTube</a></li>
-            </ul>
-        </div>
+        
+            <iframe class="media-audio" src="https://open.spotify.com/embed?uri=spotify:album:7JZJE36cFkciuXvUM1aM2B" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+
 	</div>
 </section>
 
